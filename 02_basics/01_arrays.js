@@ -38,3 +38,68 @@ console.log(myn2);
 
 
 
+
+/* Self Notes - 
+
+
+Javascript arrays are resizeable and can contain a mix of different datatypes (number,boolean,string,objects)
+
+*** Declaration of array ***
+1)using square[] brackets - const arrayName = [value1, value2, ...];
+eg - const marks = [5,10,2,4,7]
+
+2) using the Array constructor 
+eg - const marks = new Array(5,10,2,4,7)
+
+*** Adding elements to array ***
+
+1) using push() method, push adds element to the end of array
+const marks = [5,10,2,4,7]
+marks.push(100); //now array becomes [5,10,2,4,7,100]
+
+2)using unshift() method, unshift adds element to the beggining of array
+const marks = [5,10,2,4,7]
+marks.unshift(0) // now array becomes [0,5,10,2,4,7]
+
+*** removing elements from array ***
+using pop(), shift() and also slice() 
+const marks = [5,10,2,4,7]
+marks.pop(); // removes last element 
+const marks = [5,10,2,4,7]
+marks.shift() // removes the first element 
+
+*** to print the whole array use ***
+console.log(marks);
+
+
+*** Note *** 
+push and unshift return the new length of the array
+pop and shift return the element removed and if array is empty, undefined is returned
+
+*** join method ***
+
+
+*** slice and splice
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
