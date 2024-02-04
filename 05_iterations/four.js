@@ -1,3 +1,5 @@
+// we can iterate over objects using for in loop
+
 const myObj = 
 {
     js : "javadcript",
