@@ -13,6 +13,7 @@ if(true)
 // console.log(b);
 // console.log(c);
 
+// nested scope - 
 
 function one()
 {
@@ -47,7 +48,7 @@ function addOne(num)
 }
 addOne(5);
 
-const addTwo = function(num)       // in js variables can hold function too!!
+const addTwo = function(num)       // in js variables can hold function too
 {
     return num+2;
 }
