@@ -14,7 +14,7 @@ function sayMyName() {
     console.log("H")
 }
 
-// sayMyName();
+// sayMyName(); 
 
 // function addTwoNumber(number1,number2)
 // {
@@ -50,7 +50,7 @@ function calculateCartPrice(val1,val2,...num1)  // rest operator
 {
     return num1;
 }
-console.log(calculateCartPrice(200,400,500,2000));
+console.log(calculateCartPrice(200,400,500,2000));  //o/p = [500,2000] because val1=200,val2=400 and rest all values will go to num1
 
 const user = 
 {
@@ -77,7 +77,7 @@ function returnSecondValue(getArray)
 }
 // console.log(returnSecondValue(myNewArray));
 console.log(returnSecondValue([200,400,100,600]));
-
+    
 
 
 
