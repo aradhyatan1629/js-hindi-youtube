@@ -1,4 +1,5 @@
 // we can iterate over objects using for in loop
+// for in loop iterates over the key/property of the object
 
 const myObj = 
 {
