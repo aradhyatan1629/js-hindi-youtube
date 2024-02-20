@@ -3,7 +3,7 @@
 // const values = coding.forEach((item)=>{
 //     console.log(item);
 // })
-// console.log(values);
+// console.log(values); // foreach does not return any value
 
 const myNums = [1,2,3,4,5,6,7,8,9,10];
 
