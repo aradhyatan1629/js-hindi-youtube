@@ -1,11 +1,14 @@
 
 // object literals
 
+const mySym = new Symbol("Key1")
+
 const jsUser = 
 {
     name : "Hitesh",
     "full name" : "hitesh chaudhary",
     age : 18,
+    [mySym] : "key1",  // only way we can use symbol in an object
     location : "jaipur",
     email : "hitesh@google.com",
     isLoggedIn : false,
@@ -14,6 +17,7 @@ const jsUser =
 
 // console.log(jsUser.email);
 // console.log(jsUser["email"]);
+// console.log(jsUser[mySym]);
 
 
 
@@ -29,7 +33,6 @@ jsUser.greeting = function()
     console.log("hello js user");
 }
 
-// console.log(jsUser.greeting());
 console.log(jsUser.greeting());
 
 jsUser.greetingTwo = function()
